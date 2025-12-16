@@ -18,6 +18,8 @@ export async function POST(request: NextRequest) {
       headers: {
         Accept: "video/*",
         "User-Agent": "Mozilla/5.0 (compatible; Next.js Video Fetcher)",
+        Authorization: `Bearer p49bNtoAjA+5mFDPMtq6wiL/OGeBXr075wnaimG8fKO8u3iHHyGkVgWbHQ==`,
+
       },
     });
 
